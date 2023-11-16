@@ -10,7 +10,7 @@ crate-type = [ 'staticlib' ]
 
 [dependencies]
 libc = '0.2'
-ton_client = { git = 'https://github.com/tonlabs/ever-sdk.git', tag = '1.45.0', default-features = false, features = [ 'std', 'rustls-tls-webpki-roots' ] }
+ton_client = { git = 'https://github.com/tonlabs/ever-sdk.git', branch = '1.44.4-build', default-features = false, features = [ 'std', 'rustls-tls-webpki-roots' ] }
 
 [profile.release]
 lto = true
